@@ -2,3 +2,4 @@ node_modules/
 lib/
 src/
 tsconfig.json
+package-lock.json
