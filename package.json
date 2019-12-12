@@ -1,0 +1,41 @@
+{
+    "name": "node-email-extractor",
+    "version": "1.0.2",
+    "description": "Extract emails from text and also from a site page",
+    "main": "./lib/index.js",
+    "types": "./lib",
+    "directories": {
+        "lib": "lib"
+    },
+    "dependencies": {
+        "request": "^2.88.0",
+        "request-promise-native": "^1.0.8",
+        "typescript": "^3.7.3",
+        "typings": "^2.1.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "watch": "tsc -w",
+        "build": "rm -rf ./lib && tsc -p ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/binsarjr/node-email-extractor.git"
+    },
+    "keywords": [
+        "email",
+        "extractor",
+        "scraper",
+        "crawler",
+        "email-extractor",
+        "email-scraper",
+        "email-crawler",
+        "node-email-extractor"
+    ],
+    "author": "Binsar Dwi Jasuma",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/binsarjr/node-email-extractor/issues"
+    },
+    "homepage": "https://github.com/binsarjr/node-email-extractor#readme"
+}
